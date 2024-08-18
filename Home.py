@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image(r"D:\Udemy\Python Mega Course Learn Python in 60 Days, Build 20 Apps\App2-portfolio\images\Photo.jpg")
+    st.image(r"D:\Udemy\Python Mega Course Learn Python in 60 Days, Build 20 Apps\App2portfolio\images\Photo.jpg")
 
 with col2:
     st.title("Phan Hoang")
@@ -29,7 +29,7 @@ with col3:
     for index, row in df[:10].iterrows():
         st.header(row['title'])
         st.write(row['description'])
-        st.image(r"D:\Udemy\Python Mega Course Learn Python in 60 Days, Build 20 Apps\App2-portfolio\images/" + row["image"])
+        st.image(r"D:\Udemy\Python Mega Course Learn Python in 60 Days, Build 20 Apps\App2portfolio\images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
 
 with col4:
@@ -37,7 +37,7 @@ with col4:
     for index, row in df[10:].iterrows():
         st.header(row['title'])
         st.write(row['description'])
-        st.image(r"D:\Udemy\Python Mega Course Learn Python in 60 Days, Build 20 Apps\App2-portfolio\images/" + row["image"])
+        st.image(r"D:\Udemy\Python Mega Course Learn Python in 60 Days, Build 20 Apps\App2portfolio\images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
 
 
